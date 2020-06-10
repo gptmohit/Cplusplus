@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+	// Complete the program
+     string a,b,c;
+     cin >>a>>b;
+     int lena=a.size();
+     int lenb=b.size();
+     cout << lena<<" "<<lenb <<"\n";
+     c=a+b;
+     cout <<c<<"\n";
+     swap(a[0],b[0]);
+     cout << a << " "<<b;
+
+    return 0;
+}
